@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natures platures</title>
+
+    <!-- google fonts connect link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- daisy UI connet link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.6/daisyui.css" rel="stylesheet" type="text/css" />
+   
+
+    <!-- Tailwind CSS connect link -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- fonts awsome connect link -->
+    <script src="https://kit.fontawesome.com/dc56b60fc7.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind css theme  -->
+     <style>
+          .poppins{
+          font-family: "Poppins", serif;
+          font-weight: 400;
+          font-style: normal;
+          }
+          .sora{
+          font-family: "Sora", serif;
+          font-optical-sizing: auto;
+          font-weight:400;
+          font-style: normal;
+          }
+          .btn-primary{
+            background-color:#179800 ;
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 16px 24px;
+          }
+     </style>
+     
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+          --color-btn-color:#179800;
+          --color-title-color:#111111;
+          
+        }
+      </style>
+</head>
+<body class="sora">
+    <!-- header section is start -->
+    <header class="mb-[140px] bg-gradient-to-t from-[#EFEBE3]">
+
+     <section class="max-w-screen-xl mx-auto">
+       <!-- navber start -->
+       <div class="navbar md:shadow-none shadow-sm">
+        <div class="navbar-start">
+          <div class="hidden md:block">
+            <img src="./c2-assets/logo-header.png" alt="">
+          </div>
+          <div class="md:hidden">
+            <img src="./c2-assets/Group (1).png" alt="">
+          </div>
+          
+        </div>
+        <div class="navbar-center hidden md:block">
+          <a class="btn btn-ghost text-xl">Services</a>
+          <a class="btn btn-ghost text-xl">Product</a>
+          <a class="btn btn-ghost text-xl">Contact us</a>
+        </div>
+        <div class="navbar-end">
+         
+         <div class="hidden md:block">
+          <button class="btn btn-ghost btn-circle">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+         </div>
+
+           <div class="flex justify-between gap-1 hidden md:block">
+             <button class="btn btn-outline border border-btn-color">Login</button>
+             <button class="btn btn-success bg-btn-color border-none py-4">Register</button>
+           </div>
+         
+         <div class="dropdown md:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <i class="fa-solid fa-bars lg:hidden"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow right-2">
+            <li><a>Services</a></li>
+            <li><a>Prpduct</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+
+      <!-- banner start -->
+       <div>
+
+        <!-- text -->
+        <div class="text-center space-y-4">
+          <h1 class="font-semibold text-3xl text-text-color w-3/6 mx-auto">Freshness <span class="text-btn-color">You Can
+            Count</span> On, Prices You’ll Love!</h1>
+          <p class="font-light text-lg text-text-color w-3/4 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        </div>
+
+        <!-- img -->
+         <div>
+          <img class="mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
+         </div>
+       </div>
+     </section>
+    </header>
+
+    <!-- main section is start -->
+     <main></main>
+
+     <!-- footer section is start -->
+      <footer></footer>
+</body>
+</html>
